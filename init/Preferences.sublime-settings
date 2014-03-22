@@ -11,7 +11,7 @@
 		".DS_Store",
 		"._*",
 		".Spotlight-V100",
-		".Trashes"
+		".Trashes",
 		"*.pyc",
 		"Desktop.ini",
 		"Thumbs.db"
