@@ -36,8 +36,8 @@ install webkit2png
 # PHP
 tap homebrew/versions
 tap josegonzalez/homebrew-php
-install josegonzalez/homebrew-php/php54
-install josegonzalez/homebrew-php/php55
+install php54
+install php55
 install composer
 
 # Install other useful binaries
