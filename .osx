@@ -689,8 +689,9 @@ defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault
 # Sublime Text                                                                #
 ###############################################################################
 
-# Install Sublime Text settings
-cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/Preferences.sublime-settings 2> /dev/null
+# Symlink Sublime Text settings from Dropbox
+mkdir -p ~/Dropbox/Sublime\ Text\ 2
+ln -sf ~/Dropbox/Sublime\ Text\ 2 ~/Library/Application\ Support/Sublime\ Text\ 2 2> /dev/null
 
 ###############################################################################
 # Transmission.app                                                            #
