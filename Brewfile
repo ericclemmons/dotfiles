@@ -18,8 +18,24 @@ install bash
 install wget --enable-iri
 
 # Install more recent versions of some OS X tools
+tap homebrew/dupes
 install vim --override-system-vi
 install homebrew/dupes/grep
+
+# Databases
+install mongodb
+install mysql
+install redis
+
+# Node
+install node
+install chromedriver
+install phantomjs
+install webkit2png
+
+# PHP
+tap josegonzalez/homebrew-php
+install composer
 install josegonzalez/homebrew-php/php53
 install josegonzalez/homebrew-php/php54
 install josegonzalez/homebrew-php/php55
@@ -27,17 +43,11 @@ install josegonzalez/homebrew-php/php55
 # Install other useful binaries
 install ack
 install autoconf
-install pv
 install git
 install imagemagick --with-webp
-install mongodb
-install mysql
-install node
-install redis
 install rename
 install ssh-copy-id
 install tree
-install webkit2png
 install wget
 install zlib
 
