@@ -1,0 +1,19 @@
+################################################################################
+#                                                                              #
+# THIS IS FOR PRIVATE CONFIGURATION ONLY. DO NOT COMMIT SENSITIVE INFORMATION. #
+#                                                                              #
+################################################################################
+
+# GIT_AUTHOR_NAME="Your Full Name"
+# GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+# git config --global user.name "$GIT_AUTHOR_NAME"
+
+# GIT_AUTHOR_EMAIL="Your E-mail"
+# GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+# git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+# GITHUB_USER="Your Github username"
+# git config --global github.user "$GITHUB_USER"
+
+# GITHUB_TOKEN="Your Github token"
+# git config --global github.token "$GITHUB_TOKEN"
