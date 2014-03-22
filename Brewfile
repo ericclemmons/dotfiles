@@ -34,8 +34,8 @@ install phantomjs
 install webkit2png
 
 # PHP
+tap homebrew/versions
 tap josegonzalez/homebrew-php
-install josegonzalez/homebrew-php/php53
 install josegonzalez/homebrew-php/php54
 install josegonzalez/homebrew-php/php55
 install composer
