@@ -2,7 +2,6 @@
 
 > Fork of [Mathias's dotfiles](https://github.com/mathiasbynens/dotfiles) primarily for Node/PHP development. [Compare the differences](https://github.com/ericclemmons/dotfiles/compare/mathiasbynens:master...ericclemmons:master).
 
-
 Dotfiles (`~/.*`) are environment & application configuration files.
 
 ## Installation
@@ -67,6 +66,14 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 ```bash
 $ source ~/.cask
 ```
+
+## Final Setup
+
+- Launch ` + Software Update...`, sign-in, and perform any updates.
+- Re-install any paid applications via the App Store.
+- Launch `Dropbox.app`, so that Sublime Text 2 can pull settings & packages from `~/Dropbox/Sublime Text 2`.
+- Launch `Sparrow.app` & configure mail accounts.
+- Launch `1Password.app` `Caffeine.app`, `Flux.app`, `TotalTerminal.app` and set to launch on startup.
 
 ## Author
 
