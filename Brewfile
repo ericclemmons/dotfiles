@@ -35,10 +35,10 @@ install webkit2png
 
 # PHP
 tap josegonzalez/homebrew-php
-install composer
 install josegonzalez/homebrew-php/php53
 install josegonzalez/homebrew-php/php54
 install josegonzalez/homebrew-php/php55
+install composer
 
 # Install other useful binaries
 install ack
