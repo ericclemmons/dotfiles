@@ -534,6 +534,9 @@ sudo mdutil -E / > /dev/null
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 
+# Use bash-powerline
+cp -r init/bash-powerline.sh ~/.bash-powerline.sh 2> /dev/null
+
 # Use a modified version of the Pro theme by default in Terminal.app
 open "${HOME}/init/Visor.terminal"
 sleep 1 # Wait a bit to make sure the theme is loaded
