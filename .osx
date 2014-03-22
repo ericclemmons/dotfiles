@@ -706,3 +706,4 @@ defaults write com.twitter.twitter-mac HideInBackground -bool true
 ###############################################################################
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+echo "Be sure to customize ~/.extra"
