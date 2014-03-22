@@ -3,13 +3,13 @@
 __powerline() {
 
     # Unicode symbols
-    PS_SYMBOL_DARWIN='ï£¿'
+    PS_SYMBOL_DARWIN=''
     PS_SYMBOL_LINUX='$'
     PS_SYMBOL_OTHER='%'
-    GIT_BRANCH_SYMBOL='â‘‚ '
+    GIT_BRANCH_SYMBOL='⑂ '
     GIT_BRANCH_CHANGED_SYMBOL='+'
-    GIT_NEED_PUSH_SYMBOL='â‡¡'
-    GIT_NEED_PULL_SYMBOL='â‡£'
+    GIT_NEED_PUSH_SYMBOL='⇡'
+    GIT_NEED_PULL_SYMBOL='⇣'
 
     # Solarized colorscheme
     FG_BASE03="\[$(tput setaf 8)\]"
@@ -65,7 +65,7 @@ __powerline() {
             PS_SYMBOL=$PS_SYMBOL_OTHER
     esac
 
-    __git_info() {
+    __git_info() { 
         [ -x "$(which git)" ] || return    # no git command found
 
         # get current branch name or short SHA1 hash for detached head
@@ -90,7 +90,7 @@ __powerline() {
 
     ps1() {
         # Check the exit code of the previous command and display different
-        # colors in the prompt accordingly.
+        # colors in the prompt accordingly. 
         if [ $? -eq 0 ]; then
             local BG_EXIT="$BG_GREEN"
         else
