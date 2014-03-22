@@ -18,7 +18,7 @@ Clone this repository into `~/.dotfiles`.
 ```bash
 $ git clone https://github.com/ericclemmons/dotfiles.git .dotfiles
 $ cd .dotfiles
-$ source bootstrap.sh
+$ ./install
 ```
 
 ### Without Git
@@ -26,7 +26,7 @@ $ source bootstrap.sh
 To install these dotfiles without Git:
 
 ```bash
-cd; curl -#L https://github.com/ericclemmons/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE-MIT.txt}
+cd; curl -#L https://github.com/ericclemmons/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,install,LICENSE-MIT.txt}
 ```
 
 To update later on, just run that command again.
@@ -34,13 +34,13 @@ To update later on, just run that command again.
 ### Updating
 
 ```bash
-$ source bootstrap.sh
+$ ./install
 ```
 
 Alternatively, to update while avoiding the confirmation prompt:
 
 ```bash
-set -- -f; source bootstrap.sh
+set -- -f; ./install
 ```
 
 ## Setup OS X
