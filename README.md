@@ -67,10 +67,24 @@ You could also install native apps with [`brew cask`](https://github.com/phinze/
 $ source ~/.cask
 ```
 
-## Final Setup
+## Update OS X & App Store Software
 
 - Launch ` + Software Update...`, sign-in, and perform any updates.
 - Re-install any paid applications via the App Store.
+
+## Install NPM Packages
+
+```bash
+$ source ~/.npm
+```
+
+## Customize `~/.extra` and `~/.path`
+
+Use these files to customize environment settings & variables, as well as
+additional paths, respectively.
+
+## Final Setup
+
 - Launch `Dropbox.app`, so that Sublime Text 2 can pull settings & packages from `~/Dropbox/Sublime Text 2`.
 - Launch `Sparrow.app` & configure mail accounts.
 - Launch `1Password.app` `Caffeine.app`, `Flux.app`, `TotalTerminal.app` and set to launch on startup.
