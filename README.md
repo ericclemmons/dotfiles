@@ -75,7 +75,7 @@ $ source ~/.cask
 ## Install NPM Packages
 
 ```bash
-$ source ~/.npm
+$ source ~/.node
 ```
 
 ## Customize `~/.extra` and `~/.path`
