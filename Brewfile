@@ -28,7 +28,7 @@ install mysql
 install redis
 
 # Node
-install node
+install node --without-npm
 install chromedriver
 install phantomjs
 install webkit2png
