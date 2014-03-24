@@ -1,0 +1,13 @@
+# Install NPM from source instead of Brewfile
+if hash npm 2>/dev/null; then
+    npm update -g
+else
+    curl -L https://npmjs.org/install.sh | sh
+fi
+
+# Build Tools
+npm install -g grunt-cli
+npm install -g gulp
+
+# Scaffolding
+npm install -g yo
