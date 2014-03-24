@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 cd "$(dirname "${BASH_SOURCE}")"
 git pull origin master
+
 function doIt() {
-    rsync   -av --no-perms \
-            --exclude ".git/" \
-            --exclude ".DS_Store" \
-            --exclude ".extra" \
-            --exclude ".path" \
-            --exclude "install" \
-            --exclude "LICENSE-MIT.txt"
-            --exclude "README.md" \
+    rsync   -av --no-perms              \
+            --exclude ".git/"           \
+            --exclude ".DS_Store"       \
+            --exclude ".extra"          \
+            --exclude ".path"           \
+            --exclude "install"         \
+            --exclude "LICENSE-MIT.txt" \
+            --exclude "README.md"       \
             . ~
     source ~/.bash_profile
 }
+
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
     doIt
 else
@@ -22,4 +24,5 @@ else
         doIt
     fi
 fi
+
 unset doIt
