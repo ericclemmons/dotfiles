@@ -5,6 +5,9 @@ else
     curl -L https://npmjs.org/install.sh | sh
 fi
 
+# Package managers
+npm install -g bower
+
 # Build Tools
 npm install -g grunt-cli
 npm install -g gulp
