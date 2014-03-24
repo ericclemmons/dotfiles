@@ -78,10 +78,10 @@ $ source ~/.cask
 $ source ~/.node
 ```
 
-## Customize `~/.extra` and `~/.path`
+## Customize Environment
 
-Use these files to customize environment settings & variables, as well as
-additional paths, respectively.
+- `~/.extra` - Environment settings & variables
+- `~/.path` - Additional modifications to `$PATH`
 
 ## Final Setup
 
