@@ -45,6 +45,7 @@ install composer
 install ack
 install autoconf
 install git
+install hub
 install imagemagick --with-webp
 install rename
 install ssh-copy-id
