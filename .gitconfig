@@ -19,6 +19,8 @@
 	ca = !git add -A && git commit -av
 	# Alias for checkout
 	co = checkout
+	# Alias for checkout master
+	com = checkout master
 	# Switch to a branch, creating it if necessary
 	go = checkout -B
 	# Show verbose output about tags, branches or remotes
