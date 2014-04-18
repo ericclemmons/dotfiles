@@ -26,6 +26,7 @@ install homebrew/dupes/grep
 # Databases
 install mongodb
 install mysql
+install postgresql
 install redis
 
 # Node
