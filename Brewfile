@@ -49,6 +49,7 @@ install git
 install hub
 install imagemagick --with-webp
 install rename
+install siege
 install ssh-copy-id
 install tree
 install wget
