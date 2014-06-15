@@ -51,6 +51,7 @@ install imagemagick --with-webp
 install rename
 install siege
 install ssh-copy-id
+terminal-notifier
 install tree
 install wget
 install zlib
