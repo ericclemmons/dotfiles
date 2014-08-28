@@ -48,6 +48,7 @@ install autoconf
 install git
 install hub
 install imagemagick --with-webp
+install multimarkdown
 install rename
 install siege
 install ssh-copy-id
