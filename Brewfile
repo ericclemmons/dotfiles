@@ -51,6 +51,7 @@ install imagemagick --with-webp
 install multimarkdown
 install rename
 install siege
+install https://raw.github.com/eugeneoden/homebrew/eca9de1/Library/Formula/sshpass.rb
 install ssh-copy-id
 terminal-notifier
 install tree
