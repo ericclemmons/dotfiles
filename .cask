@@ -9,6 +9,7 @@ function installcask() {
 installcask adium
 installcask ansible
 installcask backblaze-downloader
+installcask boot2docker
 installcask caffeine
 installcask cord
 installcask dropbox
