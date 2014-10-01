@@ -102,3 +102,8 @@
 
 [push]
 	default = matching
+[user]
+	name = Eric Clemmons
+	email = eric@smarterspam.com
+[github]
+	user = ericclemmons
