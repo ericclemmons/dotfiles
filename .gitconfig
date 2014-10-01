@@ -19,6 +19,8 @@
 	c = clone --recursive
 	# Commit all changes
 	ca = !git add -A && git commit -av
+	# Alias for commit -m
+	cm = commit -m
 	# Alias for checkout
 	co = checkout
 	# Alias for checkout develop
