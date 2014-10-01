@@ -1,4 +1,6 @@
 [alias]
+	# Alias for add -p
+	ap = add -p
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 	# View pretty commit tree
