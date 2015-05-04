@@ -26,6 +26,7 @@ installcask onepassword
 installcask perian
 installcask sequel-pro
 installcask shimo
+installcask slack
 installcask spectacle
 installcask sublime-text
 installcask the-unarchiver
