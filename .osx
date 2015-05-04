@@ -688,6 +688,10 @@ mkdir -p ~/Dropbox/Sublime\ Text\ 2
 rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2
 ln -sf ~/Dropbox/Sublime\ Text\ 2 ~/Library/Application\ Support/Sublime\ Text\ 2 2> /dev/null
 
+mkdir -p ~/Dropbox/Sublime\ Text\ 3
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3
+ln -sf ~/Dropbox/Sublime\ Text\ 3 ~/Library/Application\ Support/Sublime\ Text\ 3 2> /dev/null
+
 ###############################################################################
 # Transmission.app                                                            #
 ###############################################################################
