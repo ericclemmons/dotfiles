@@ -31,6 +31,6 @@ installcask spectacle
 installcask sublime-text
 installcask the-unarchiver
 installcask transmission
-installcask totalterminal
 installcask vagrant
 installcask virtualbox
+installcask totalterminal
